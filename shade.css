@@ -1,0 +1,146 @@
+ #container{
+    width:1050px;
+   /* border:1px solid grey;*\
+   /* height:100px;*/
+    margin:0 auto;
+ }
+ #header{
+    height:100px;
+    padding:10px 0;
+ }
+ #brand{
+    float:left;
+ }
+ h1 a{
+   font-size:50px;
+   font-weight:100;
+   color:purple;
+   text-decoration: none;
+ }
+ #searchbox{
+    float:right;
+    background:linear-gradient(#E4F2b9,#B7E953);
+    width:400px;
+    height:50px;
+    padding:20px 20px 0 20px;
+    margin-top: 20px;
+     }
+ .text{
+    float:left;
+    width:200px;
+    padding:5px;
+    font-size:15px;
+    color:#E36A03; 
+    background: white url(https://th.bing.com/th/id/R.eb48e19b36ed397c180ab9516db2332c?rik=mD75veLO3oYCGA&riu=http%3a%2f%2ffiles.softicons.com%2fdownload%2ftoolbar-icons%2f16x16-free-toolbar-icons-by-aha-soft%2fpng%2f16%2fsearch.png&ehk=J%2b9EIZ5SGF%2bSAyEot7Z%2b9DHqY0IVJzkmn2lzCI49%2fug%3d&risl=&pid=ImgRaw&r=0) right center no-repeat;
+
+ }
+ .submit{
+    float:right;
+    padding:5px;
+    font-weight:bold;
+    color:white;
+    background:#A751D6;
+    font-size:15px;
+ }
+ .clear1{
+   clear:both;
+
+ }
+ #menu{
+   height:70px;
+   background: linear-gradient(#F8F594,#D5D533);
+   padding:7px 0;
+
+ }
+ ul{
+   list-style:none;
+ }
+ #menu ul li{
+   float:left;
+   padding:0 30px;
+   height:30px;
+   border-right: 1px solid #5d12e7;
+ }
+ #menu ul li:last-child{
+   border-right:none;
+ }
+ #menu ul li a{
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 17px;
+   color:#5d12e7;
+   line-height:30px;
+   transition:font-size 1s linear;
+ }
+ #menu ul li a:hover, #menu ul li a.active{
+   font-size:20px;
+   font-weight:bold;
+   color:purple;
+ }
+ #intro{
+   background: linear-gradient(blue,pink);
+   padding:30px;
+   margin: 16px 0;
+   
+ }
+ #intro h3{
+   font-size: 50px;
+   color:greenyellow;
+   font-weight: normal;
+ }
+ #intro p{
+   font-size:30px;
+   color:#B7E953;
+   text-align: justify;
+
+ }
+ .side{
+   height: 750px;
+    width: 450px;
+    border: 1px solid orange;
+    border-radius: 20px;
+    padding: 10px 30px;
+ }
+ .side h3{
+   color:#E36A03;
+   font-size: 30px;
+
+ }
+ .side ul{
+   padding-top: 8px;   
+}
+ .side ul li a{
+   text-decoration: none;
+   font-size:40px;
+   color:goldenrod;
+   transition: font-size 0.3s ease;
+ }
+ #left ul{
+   padding-top: 15px;
+ }
+ #left ul li{
+   padding-bottom: 6px;
+   padding-left: 10px;
+   list-style-image:url(https://www.splitbrain.org/_static/ico/circular/ico/add.png);
+
+ }
+ #right ul li{
+   padding-bottom: 6px;
+   padding-left:10px;
+   list-style-image: url(https://th.bing.com/th/id/R.2f7e5f97fd43f0413638e88d39361238?rik=nBSJbUHe7nrpxA&riu=http%3a%2f%2fwww.splitbrain.org%2f_static%2fico%2fcircular%2fico%2felement_fire.png&ehk=XvxJ84UChhPH2Ogt67XPVuX0NEaVhv855mUwTN1V73w%3d&risl=&pid=ImgRaw&r=0);
+ }
+ .side ul li a:hover, .side ul li a:active{
+   text-decoration: none;
+   font-size:4 0px;
+   font-weight:bold;
+   color:purple;
+ }
+ #left{
+   float:left;
+ }
+ #right{
+   float:right;
+ }
+ 
+
+ 
